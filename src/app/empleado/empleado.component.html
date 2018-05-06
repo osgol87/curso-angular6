@@ -1,0 +1,24 @@
+<h1 style="color: blue;">
+	{{titulo}}
+</h1>
+<strong>Empleado estrella:</strong>
+<ul>
+	<li>{{trabajadores[0].nombre}}</li>
+	<li>{{trabajadores[0].edad}}</li>
+	<li>{{trabajadores[0].cargo}}</li>
+	<li>{{trabajadores[0].contratado}}</li>
+</ul>
+
+<h3>Listado de empleados</h3>
+<ul>
+	<li *ngFor="let empleado of trabajadores; let i = index">
+		<strong>Empleado {{ i + 1 }}:</strong>
+		<ul>
+			<li>{{empleado.nombre}}</li>
+			<li>{{empleado.edad}}</li>
+			<li>{{empleado.cargo}}</li>
+			<li *ngIf="empleado.contratado == true">Está contratado</li>
+			<li *ngIf="empleado.contratado == false">No está contratado</li>
+		</ul>
+	</li>
+</ul>

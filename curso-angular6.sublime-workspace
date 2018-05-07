@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"Con",
+				"ConversorPipe\talias"
+			],
+			[
+				"p",
+				"pipes\tdirectory"
+			],
+			[
+				"va",
+				"value_two\tlet"
+			],
+			[
+				"val",
+				"value_one\tlet"
+			],
+			[
+				"par",
+				"parseInt\tfunction"
+			],
+			[
+				"Pipe",
+				"PipeTransform\talias"
+			],
+			[
+				"in",
+				"indice\tparameter"
+			],
+			[
+				"pro",
+				"providers\tproperty"
+			],
+			[
 				"rou",
 				"router\texternal module name"
 			],
@@ -71,6 +103,51 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/app/services/ropa.service.ts",
+			"settings":
+			{
+				"buffer_size": 502,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/home/home.component.ts",
+			"settings":
+			{
+				"buffer_size": 699,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/pipes/conversor.pipe.ts",
+			"settings":
+			{
+				"buffer_size": 359,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 886,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/home/home.component.html",
+			"settings":
+			{
+				"buffer_size": 559,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,7 +165,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 130.0,
 		"history":
 		[
 		]
@@ -104,10 +181,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ogonzalez/Projects/curso-angular6"
+		"/Users/ogonzalez/Projects/curso-angular6",
+		"/Users/ogonzalez/Projects/curso-angular6/src",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/home",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/pipes"
 	],
 	"file_history":
 	[
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/contacto/contacto.component.ts",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/empleado/empledo.component.ts",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/fruta/fruta.component.ts",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/home/home.component.ts",
+		"/Users/ogonzalez/Projects/curso-angular6/src/app/contacto/contacto.component.html",
 		"/Users/ogonzalez/Projects/curso-angular4/src/app/app.component.html",
 		"/Users/ogonzalez/Projects/curso-angular4/src/app/contacto/contacto.component.html",
 		"/Users/ogonzalez/Projects/curso-angular4/src/app/contacto/contacto.component.ts",
@@ -154,8 +240,161 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/app/services/ropa.service.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app/home/home.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app/pipes/conversor.pipe.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/app/app.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								712,
+								712
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/app/home/home.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

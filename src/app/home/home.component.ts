@@ -12,13 +12,16 @@ export class HomeComponent
 	public listado_ropa: Array<string>;
 	public prenda_a_guardar: string;
 
+	public fecha: Date;
+
 	constructor(
-		private _ropaService: RopaService
+		private _ropaService: RopaService;
 	){}
 
 	ngOnInit()
 	{
 		this.listado_ropa = this._ropaService.getRopa();
+		this.fecha = new Date(2018, 4, 6);
 	}
 
 	guardarRopa()

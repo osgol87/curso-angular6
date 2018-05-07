@@ -5,10 +5,9 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 	selector: 'contacto',
 	templateUrl: './contacto.component.html'
 })
-
 export class ContactoComponent
 {
-	public titulo = 'Pagina de contacto';
+	public titulo = 'Página de contacto';
 	public parametro;
 
 	constructor(
@@ -22,5 +21,15 @@ export class ContactoComponent
 		{
 			this.parametro = params["page"];
 		});
+	}
+
+	redirigir()
+	{
+		this._router.navigate(['/contacto','victorroblesweb.es'])
+	}
+
+	redirigirDos()
+	{
+		this._router.navigate(['/home'])
 	}
 }

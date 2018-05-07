@@ -1,4 +1,8 @@
 <h2>{{titulo}}</h2>
 <div *ngIf="parametro">
-	Parametro de la url: {{parametro}}
+	Parámetro de la url: {{parametro}}
+</div>
+<div *ngIf="!parametro">
+	<button (click)="redirigir()">Página con parametro</button>
+	<button (click)="redirigirDos()">Home</button>
 </div>

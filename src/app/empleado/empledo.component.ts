@@ -7,7 +7,6 @@ import { Empleado } from './empleado';
 	selector: 'empleado-tag',
 	templateUrl: './empleado.component.html'
 })
-
 export class EmpleadoComponent
 {
 	
